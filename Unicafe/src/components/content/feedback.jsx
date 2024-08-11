@@ -16,7 +16,7 @@ const Feedback = () => {
 
     /**
      * Calcula el numero de clicks que recibe la opción 
-     * good en los comentarios
+     * good en los comentarios *****
      */
     const handleGoodClicks=()=>{
         const upGood =(good + 1);
