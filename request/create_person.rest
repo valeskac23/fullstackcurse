@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/phoneaddress
+Content-Type: application/json
+
+
+{
+   "name": "Clarisa Maluenga",
+    "number": "39-44-5323523"
+    
+}
