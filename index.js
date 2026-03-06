@@ -34,6 +34,7 @@ let phoneAddress = [
 
 
 app.use(express.json())
+app.use(express.static('dist'))
 
 app.use(morgan('tiny'))
 
