@@ -9,7 +9,9 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:ui": "@powershell If (Test-Path dist) { Remove-Item -Recurse -Force dist } && cd ../part2/agenda && npm run build && @powershell Copy-Item -Path ./dist -Destination ../../part3/dist -Recurse",
+    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
   },
   "dependencies": {
     "cors": "^2.8.6",
