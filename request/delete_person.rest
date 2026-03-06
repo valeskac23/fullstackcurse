@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+DELETE http://localhost:3001/api/phoneaddress/2
+
+
+###
+
+=======
+DELETE http://localhost:3001/api/phoneaddress/2
+
+
+###
+
+>>>>>>> 5286ddb (primer commit de la part3)
+GET http://localhost:3001/api/phoneaddress
